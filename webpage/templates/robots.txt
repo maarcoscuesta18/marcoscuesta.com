@@ -1,0 +1,11 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /admin
+Disallow: /staticfiles/
+
+Sitemap: https://www.marcoscuesta.com/sitemap.xml
